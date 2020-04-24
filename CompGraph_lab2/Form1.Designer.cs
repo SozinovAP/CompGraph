@@ -31,6 +31,8 @@
             this.glControl1 = new OpenTK.GLControl();
             this.button3 = new System.Windows.Forms.Button();
             this.LayerTomo = new System.Windows.Forms.TrackBar();
+            this.QuadsV = new System.Windows.Forms.RadioButton();
+            this.TextureV = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.LayerTomo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,11 +64,36 @@
             this.LayerTomo.TabIndex = 4;
             this.LayerTomo.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
+            // QuadsV
+            // 
+            this.QuadsV.AutoSize = true;
+            this.QuadsV.Checked = true;
+            this.QuadsV.Location = new System.Drawing.Point(702, 4);
+            this.QuadsV.Name = "QuadsV";
+            this.QuadsV.Size = new System.Drawing.Size(56, 17);
+            this.QuadsV.TabIndex = 5;
+            this.QuadsV.TabStop = true;
+            this.QuadsV.Text = "Quads";
+            this.QuadsV.UseVisualStyleBackColor = true;
+            // 
+            // TextureV
+            // 
+            this.TextureV.AutoSize = true;
+            this.TextureV.Location = new System.Drawing.Point(702, 28);
+            this.TextureV.Name = "TextureV";
+            this.TextureV.Size = new System.Drawing.Size(61, 17);
+            this.TextureV.TabIndex = 6;
+            this.TextureV.TabStop = true;
+            this.TextureV.Text = "Texture";
+            this.TextureV.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TextureV);
+            this.Controls.Add(this.QuadsV);
             this.Controls.Add(this.LayerTomo);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.glControl1);
@@ -84,6 +111,8 @@
         private OpenTK.GLControl glControl1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TrackBar LayerTomo;
+        private System.Windows.Forms.RadioButton QuadsV;
+        private System.Windows.Forms.RadioButton TextureV;
     }
 }
 

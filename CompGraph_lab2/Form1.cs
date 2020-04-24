@@ -48,11 +48,25 @@ namespace CompGraph_lab2
             }
         }
 
+        private bool needReload = false;
         private void glControl1_Paint(object sender, PaintEventArgs e)
         {
             if (loaded)
             {
-                view.DrawQuads(currentLayer);
+                if (QuadsV.Checked)
+                {
+                    view.DrawQuads(currentLayer);
+                }
+                else if (TextureV.Checked)
+                {
+                    if (needReload)
+                    {
+                        view.generateTextureImage(currentLayer);
+                        view.Load2DTexture();
+                        needReload = false;
+                    }
+                    view.DrawTexture();
+                }
                 glControl1.SwapBuffers();
             }
         }
@@ -79,6 +93,7 @@ namespace CompGraph_lab2
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             currentLayer = LayerTomo.Value;
+            needReload = true;
         }
     }
 }
