@@ -1,0 +1,17 @@
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\CompGraph_lab2.exe.config
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\CompGraph_lab2.exe
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\CompGraph_lab2.pdb
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.dll
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.GLControl.dll
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.pdb
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.xml
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.dll.config
+C:\Users\alexs\source\repos\CompGraph_lab2\bin\Debug\OpenTK.GLControl.xml
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.csprojAssemblyReference.cache
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.Form1.resources
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.Properties.Resources.resources
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.csproj.GenerateResource.cache
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.csproj.CoreCompileInputs.cache
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.csproj.CopyComplete
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.exe
+C:\Users\alexs\source\repos\CompGraph_lab2\obj\Debug\CompGraph_lab2.pdb
